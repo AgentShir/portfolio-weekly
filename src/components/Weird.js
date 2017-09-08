@@ -12,24 +12,30 @@ class Weird extends Component {
           </div>
           <div className="card-deck">
             <div className="card">
-              <img className="card-img-top" src="http://lorempixel.com/200/200/food" alt="sweet snack1" />
+              <img className="card-img-top" src="http://lorempixel.com/200/200/cats" alt="weird snack1" />
                 <div className="card-body">
-                  <p className="card-text">Weird Snack 1</p>
+                      <h4 className="card-title">Weird Snack 1</h4>
+                    <h6 className="card-subtitle mb-2 text-muted">$18.00</h6>
+                  <p className="card-text">Tequila lollipops, eat the worm damnit!</p>
                 </div>
             </div>
             <div className="card">
-                  <img className="card-img-top" src="http://lorempixel.com/200/200/cats" alt="sweet snack2" />
-                    <div className="card-body">
-                      <p className="card-text">Weird Snack 2</p>
-                    </div>
-            </div>
-            <div className="card">
-                    <img className="card-img-top" src="http://lorempixel.com/200/200/city" alt="sweet snack3" />
+                <img className="card-img-top" src="http://lorempixel.com/200/200/food" alt="weird snack2" />
                   <div className="card-body">
-                <p className="card-text">Weird Snack 3</p>
+                    <h4 className="card-title">Weird Snack 2</h4>
+                  <h6 className="card-subtitle mb-2 text-muted">$12.00</h6>
+                <p className="card-text">Chocolate covered shrimp chips. Just eat em!</p>
               </div>
             </div>
+            <div className="card">
+                <img className="card-img-top" src="http://lorempixel.com/200/200/sports" alt="weird snack3" />
+                  <div className="card-body">
+                    <h4 className="card-title">Weird Snack 3</h4>
+                  <h6 className="card-subtitle mb-2 text-muted">$16.00</h6>
+                <p className="card-text">Dried cuttlefish. Good luck getting past the smell!</p>
+            </div>
           </div>
+        </div>
       </div>
     )
   }

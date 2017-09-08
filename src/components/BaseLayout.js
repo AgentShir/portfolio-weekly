@@ -8,25 +8,25 @@ class BaseLayout extends Component {
     return (
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          Study Snacks
+          <p className="text-lg-left">Study Snacks</p>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <ul className="navbar-nav">
-                <li class="nav-item">
+                <li className="nav-item">
                   <NavLink className="nav-item nav-link active" to="/home">Home <span className="sr-only">(current)</span></NavLink>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <NavLink className="nav-item nav-link" to="/savory">Savory Snacks</NavLink>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <NavLink className="nav-item nav-link" to="/weird">Weird Snacks</NavLink>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <NavLink className="nav-item nav-link" to="/sweet">Sweet Snacks</NavLink>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <NavLink className="nav-item nav-link" to="/about">About</NavLink>
                 </li>
-                <li class="nav-item">
+                <li className="navbar-item">
                   <NavLink className="nav-item nav-link" to="/contact">Contact</NavLink>
                 </li>
               </ul>
