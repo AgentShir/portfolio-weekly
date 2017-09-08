@@ -20,6 +20,8 @@ class App extends Component {
             <Route path="/savory" component={Savory} />
             <Route path="/weird" component={Weird} />
             <Route path="/sweet" component={Sweet} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </BaseLayout>
       </BrowserRouter>

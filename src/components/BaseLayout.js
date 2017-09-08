@@ -23,6 +23,12 @@ class BaseLayout extends Component {
                 <li class="nav-item">
                   <NavLink className="nav-item nav-link" to="/sweet">Sweet Snacks</NavLink>
                 </li>
+                <li class="nav-item">
+                  <NavLink className="nav-item nav-link" to="/about">About</NavLink>
+                </li>
+                <li class="nav-item">
+                  <NavLink className="nav-item nav-link" to="/contact">Contact</NavLink>
+                </li>
               </ul>
             </div>
         </nav>
