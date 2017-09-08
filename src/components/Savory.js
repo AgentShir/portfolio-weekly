@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 import '../styles/App.css';
 
-class CampingNeeds extends Component {
+class Savory extends Component {
   render() {
     return (
-      <h1>Hello from Camping Needs!</h1>
+      <h1>Hello from Savory!</h1>
     )
   }
 }
 
-export default CampingNeeds;
+export default Savory;

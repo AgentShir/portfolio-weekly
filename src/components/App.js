@@ -3,9 +3,9 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import '../styles/App.css';
 import Home from '../components/Home';
-import CampingNeeds from '../components/CampingNeeds';
-import HikingGear from '../components/HikingGear';
-import FishingTackle from '../components/FishingTackle';
+import Savory from '../components/Savory';
+import Weird from '../components/Weird';
+import Sweet from '../components/Sweet';
 import Contact from '../components/Contact';
 import About from '../components/About';
 import BaseLayout from '../components/BaseLayout';
@@ -17,9 +17,9 @@ class App extends Component {
         <BaseLayout>
           <Switch>
             <Route path="/home" component={Home} />
-            <Route path="/campingneeds" component={CampingNeeds} />
-            <Route path="/hikinggear" component={HikingGear} />
-            <Route path="/fishingtackle" component={FishingTackle} />
+            <Route path="/savory" component={Savory} />
+            <Route path="/weird" component={Weird} />
+            <Route path="/sweet" component={Sweet} />
           </Switch>
         </BaseLayout>
       </BrowserRouter>
