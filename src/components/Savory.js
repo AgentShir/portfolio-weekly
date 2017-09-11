@@ -5,7 +5,7 @@ import '../styles/App.css';
 class Savory extends Component {
   render() {
     return (
-      <div className="wrapper">
+      <div className="container">
         <div className="jumbotron">
           <h1 className="display-5">Savory Snacks</h1>
             <p className="lead">The total opposite of sweet.</p>
@@ -32,7 +32,7 @@ class Savory extends Component {
                   <div className="card-body">
                     <h4 className="card-title">Savory Snack 3</h4>
                   <h6 className="card-subtitle mb-2 text-muted">$4.00</h6>
-                <p className="card-text">Chocolate covered grasshoppers.</p>
+                <p className="card-text">Iso peanuts. I'm not nuts, you're nuts.</p>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import '../styles/App.css';
 class Sweet extends Component {
   render() {
     return(
-      <div className="wrapper">
+      <div className="container">
         <div className="jumbotron">
           <h1 className="display-5">Sweet Snacks</h1>
             <p className="lead">Snacks for those with a sweet disposition.</p>

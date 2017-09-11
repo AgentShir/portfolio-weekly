@@ -26,3 +26,7 @@
 .wrapper {
   width: 900px;
 }
+
+.container {
+  justify-content: center;
+}
